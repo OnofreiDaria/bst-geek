@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <title>Visitor Statistics</title>
+
+</head>
+<body>
+<div class="main">
+    <header class="header header-hover">
+    <div class="header-container">
+        <a href="index.html" class="logo">
+            Best<span class="text-orange">Geek</span>
+        </a>
+        <div class="dropdown-search content-search">
+            <div class="input-search">
+                <input type="text" name="search">
+                <button class="btn btn-orange btn-search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div class="dropdown-content-search">
+                <div class="search-header">
+                    <p>Check out these similar questions. Don’t you see yours ? Ask a new one!</p>
+                </div>
+                <ul class="search-dropdown">
+                    <li class="search_result">
+                        <a href="">What are the best jobs to have ?
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+
+                    </li>
+                    <li class="search_result">
+                        <a href="">What are the best jobs in the world ?
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+
+                    </li>
+                    <li class="search_result">
+                        <a href="">What are the best jobs in UK?
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+
+                    </li>
+                    <li class="search_result">
+                        <a href="">What are the best jobs in the air force?
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="search_result">
+                        <a href="">What are the best jobs for over 50?
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+
+        <nav class="">
+            <a href="" class="text-orange nav-link">
+                <img src="img/read.png" alt="read icon" class="nav-icon">
+                Read</a>
+            <a href="add-question.html" class="nav-link">
+                <img src="img/answer.png" alt="answer" class="nav-icon">
+                Answer</a>
+            <a href="" class="nav-link">
+                <img src="img/spaces.png" alt="space" class="nav-icon">
+                Spaces</a>
+            <a href="notifications.html" class="nav-link">
+                <img src="img/notification.png" alt="notification" class="nav-icon">
+                Notification
+                <span class="notification-circle">
+                    <span class="notification-number">13</span>
+                </span>
+            </a>
+        </nav>
+
+
+        <div class="hover-info dropdown">
+
+            <div class="person">
+                <p class="person-name">Dumitru Birchin</p>
+                <div class="person-photo">
+                    <img src="img/photo.jpg" alt="photo">
+
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn btn-arrow">
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="ask-response.html">Help</a>
+                        <a href="topics.html">Profile</a>
+                        <a href="all-topics.html">Blogs</a>
+                        <a href="manage-invitations.html">Messages</a>
+                        <a href="who-view-profile.html">Your Content</a>
+                        <a href="statistics.html">Stats</a>
+                        <a href="credential-location.html">Create Ad</a>
+                        <a href="search.html">Settings</a>
+                        <div class="dropdown-footer">
+                            <a href="">About</a>
+                            <a href="specialties.html">Careers</a>
+                            <a href="privacy-policy.html">Terms</a>
+                            <a href="credential-education.html">Acceptable Use</a>
+                            <a href="privacy-policy.html">Privacy</a>
+                            <a href="">Businesses</a>
+                            <a href="credential-language.html">Language</a>
+                            <a href="login.html">Logout</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <button class="btn btn-flat btn-transparent btn-menu">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+
+    </div>
+</header>
+
+    <div class="flex-container flex-specialties">
+        <div class="statistic-sidebar">
+            <h5>
+                <i class="fa fa-rss" aria-hidden="true"></i>
+                Feeds</h5>
+            <ul>
+                <li class="active">
+                    <a href="">Show all</a>
+                </li>
+                <li>
+                    <a href="">Likes</a>
+                </li>
+                <li>
+                    <a href="">Share</a>
+                </li>
+                <li>
+                    <a href="">Comments</a>
+                </li>
+                <li>
+                    <a href="">Mentions</a>
+                </li>
+
+            </ul>
+        </div><!-- END sidebar -->
+        <div class="statistic-container">
+            <div class="statistic-header">
+                <h5>Visitor demographics</h5>
+                <div class="divider"></div>
+                <fieldset>
+                    <label for="data">Data for:</label>
+                    <select name="data" id="data" class="selectmenu">
+                        <option>Job function</option>
+                        <option>Job function</option>
+                        <option selected="selected">Job function</option>
+                        <option>Job function</option>
+                        <option>Job function</option>
+                    </select>
+                </fieldset>
+
+            </div>
+            <div class="statistic-body">
+                <table>
+                    <tr>
+                        <th>Top job functions</th>
+                        <th>Visitors</th>
+                        <th>% of visitors</th>
+                    </tr>
+                    <tr>
+                        <td>Engineering</td>
+                        <td>4</td>
+                        <td>
+                            <progress max="100" value="80"></progress>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Entrepreneurship</td>
+                        <td>1</td>
+                        <td>
+                            <progress max="100" value="40"></progress>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Information Technology</td>
+                        <td>9</td>
+                        <td>
+                            <progress max="100" value="100"></progress>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<script src="js/libs.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
